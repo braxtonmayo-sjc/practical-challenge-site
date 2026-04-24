@@ -1,6 +1,10 @@
 html {
+	background-color: #FFFEF4;
+	background-image: url("images/dots.png");
+	background-repeat: repeat-y;
 	font-family: 'Merriweather', serif;
 	line-height: 1.5;
+	padding-left: 40px;
 }
 
 h1, h2, h3 {
@@ -90,4 +94,25 @@ img {
 	float: right;
 	margin: 0 0 1rem 1rem;
 	max-width: 30%;
+}
+
+.hero {
+	background-image: url("images/challenge-hero.jpg");
+	background-size: cover;
+	min-height: 38rem;
+	text-align: center;
+}
+
+.hero h1 {
+	text-shadow: 5px 5px white;
+}
+
+.call-to-action {
+	background-color: #0070B0;
+	border-radius: .5rem;
+	box-shadow: 2px 2px 6px white;
+	color: white;
+	font-weight: bold;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
 }
