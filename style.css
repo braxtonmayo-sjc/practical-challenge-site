@@ -116,3 +116,33 @@ img {
 	padding: 1rem 1.5rem;
 	text-decoration: none;
 }
+
+header {
+	background-color: #0070B0;
+	color: white;
+	left: 0;
+	padding: .75rem 1rem;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+header a {
+	color: white;
+	text-decoration: underline;
+}
+
+body {
+	margin-top: 12rem;
+}
+
+article {
+	position: relative;
+}
+
+.favorite-icon {
+	color: #AE053E;
+	left: -4rem;
+	position: absolute;
+	top: 1.2rem;
+}
